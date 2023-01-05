@@ -7,5 +7,10 @@ public class MyQueue {
         list.add(70);
 
         list.print();
+        System.out.println();
+
+        //dequeue
+        list.remove();
+        list.print();
     }
 }
